@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/cron/sendDataUsage</url>
+    <description>Send usage info at Sunday 21:00 weekly</description>
+    <schedule>every sun 21:00</schedule>
+    <timezone>America/Los_Angeles</timezone>
+  </cron>
+  <cron>
+  	<url>/cron/sendBill</url>
+  	<description>Send Att bill on 25th every month 10:00</description>
+  	<schedule>25 of month 10:00</schedule>
+  	<timezone>America/Los_Angeles</timezone>
+  </cron>
+</cronentries>
